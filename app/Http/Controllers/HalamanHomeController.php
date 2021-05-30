@@ -15,4 +15,9 @@ class HalamanHomeController extends Controller
     {
         return view('about-us');
     }
+    public function help()
+    {
+        return view('help');
+    }
+    
 }

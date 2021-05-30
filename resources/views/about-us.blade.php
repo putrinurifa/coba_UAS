@@ -4,7 +4,8 @@
 <div class="container">
 				<div class="our-team-info">
 					<h4 class="title-box">Our teams</h4>
-					<div class="our-staff">
+					<div class="our-staff" style = "padding-left: 400px;" >
+
 						<div 
 							class="slide-carousel owl-carousel style-nav-1 equal-container" 
 							data-items="5" 
@@ -14,15 +15,18 @@
 							data-margin="30"
 							data-responsive='{"0":{"items":"1"},"480":{"items":"2"},"768":{"items":"3"},"992":{"items":"3"},"1200":{"items":"4"}}' >
 
-							<div class="team-member equal-elem">
+							<div class="team-member equal-elem" ">
 								<div class="media">
-									<a href="#" title="LUCIA">
-										<figure><img src="assets/images/member-lucia.jpg" alt="LUCIA"></figure>
+									<a href="#" title="BRIAN">
+										<figure><img src="{{asset('images/brian.jpg')}}" alt="BRIAN"
+											style="
+    height: 210px;
+"></figure>
 									</a>
 								</div>
 								<div class="info">
-									<b class="name">LUCIA</b>
-									<span class="title">Manager</span>
+									<b class="name">BRIAN</b>
+									<span class="title">1941720190</span>
 									<p class="desc">Contrary to popular belief, Lorem Ipsum is not simply random text...</p>
 								</div>
 							</div>
@@ -30,12 +34,13 @@
 							<div class="team-member equal-elem">
 								<div class="media">
 									<a href="#" title="NANA">
-										<figure><img src="assets/images/member-nana.jpg" alt="NANA"></figure>
+										<figure><img src="{{asset('images/putri.jpg')}}" alt="PUTRI"style="
+											height: 210px;"></figure>
 									</a>
 								</div>
 								<div class="info">
-									<b class="name">NANA</b>
-									<span class="title">Marketer</span>
+									<b class="name">PUTRI</b>
+									<span class="title">1941720036</span>
 									<p class="desc">Contrary to popular belief, Lorem Ipsum is not simply random text...</p>
 								</div>
 							</div>
