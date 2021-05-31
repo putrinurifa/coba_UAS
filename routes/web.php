@@ -24,4 +24,8 @@ Route::get('about-us', function () {
     return view('about-us');
 });
 
+Route::get('help', function () {
+    return view('help');
+});
+
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

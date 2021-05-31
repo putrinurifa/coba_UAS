@@ -10002,3 +10002,79 @@ h3 {
     border-color: #dee2e6;
   }
 }
+.pb-60{
+  padding-bottom:60px;
+}
+
+.form-stl{
+ border: 1px solid #e6e6e6;
+ padding: 40px 20px;
+ /* box-shadow: 0 8px 6px -6px black; */
+ box-shadow: 0 4px 6px -1px rgba(0,0,0,.1),0 2px 4px -1px rgba(0,0,0,.06);
+ border-radius: .5rem;
+}
+
+.wrap-login-item .form-item.register-form::before {
+content: '';
+width: 1px;
+background: transparent;
+position: absolute;
+top: 10px;
+left: -63px;
+bottom: 0;
+}
+.wrap-product-detail .detail-info .quantity-input .btn-increase {
+margin-left: 10px;
+margin-right: 1px;
+}
+
+.wrap-iten-in-cart .products-cart .product-image {
+width: 60px;
+}
+.wrap-iten-in-cart .products-cart .price-field p {
+font-size: 16px;	
+}
+
+.btn-submitx {
+background: #ff2832;
+font-size: 17px;
+color: #ffffff;
+line-height: 19px;
+border: none;
+border-radius: 0;
+padding: 15px 30px;
+min-width: 119px;
+text-align: center;
+margin-top: 28px;
+-webkit-transition: background 0.3s ease 0s;
+-o-transition: background 0.3s ease 0s;
+-moz-transition: background 0.3s ease 0s;
+transition: background 0.3s ease 0s;
+}
+.btn-submitx:hover {
+color: #ffffff !important;
+background: #333333 !important;
+}
+.wrap-login-item .form-item.login-form {
+padding-right: 40px;
+margin-bottom: 65px;
+padding-left: 40px;
+}
+
+
+.badan
+{
+ background-color: white;
+ padding: 13px 0;
+ margin-top: 30px;
+}
+
+.peding-100
+{
+ padding: 120px;
+}
+
+.peding-30
+{
+ padding: 30px;
+}

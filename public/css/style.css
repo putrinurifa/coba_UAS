@@ -3484,6 +3484,7 @@ vertical-align: top;
 }
 .our-team-info{
     margin-bottom: 45px;
+    
 }
 .our-team-info .title-box{
     border-top: 1px solid #e6e6e6;
@@ -7157,4 +7158,22 @@ background-color: #888888;
 	padding-right: 40px;
 	margin-bottom: 65px;
 	padding-left: 40px;
+}
+
+ 
+.badan
+{
+    background-color: white;
+    padding: 13px 0;
+    margin-top: 30px;
+}
+ 
+.peding-100
+{
+    padding: 120px;
+}
+ 
+.peding-30
+{
+    padding: 30px;
 }

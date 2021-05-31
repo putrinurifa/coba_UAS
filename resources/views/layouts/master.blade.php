@@ -47,7 +47,7 @@
 					<div class="mid-section main-info-area">
 
 						<div class="wrap-logo-top left-section">
-							<a href="index.html" class="link-to-home"><img src="assets/images/logo-top-1.png" alt="mercado"></a>
+							<a href="index.html" class="link-to-home"><img src="{{asset('images/logo.png')}}" alt="mercado"></a>
 						</div>
 
 						<div class="wrap-search center-section">
@@ -122,7 +122,7 @@
 									<a href="cart.html" class="link-term mercado-item-title">Cart</a>
 								</li>
 								<li class="menu-item">
-									<a href="contact-us.html" class="link-term mercado-item-title">Help</a>
+									<a href="{{ ('help') }}" class="link-term mercado-item-title">Help</a>
 								</li>																	
 							</ul>
 						</div>
@@ -189,7 +189,7 @@
 
 						<div class="col-lg-4 col-sm-4 col-md-4 col-xs-12">
 
-							<div class="wrap-footer-item">
+							<div class="wrap-footer-item" >
 								<h3 class="item-header">Hot Line</h3>
 								<div class="item-content">
 									<div class="wrap-hotline-footer">
@@ -228,7 +228,7 @@
 						</div>
 
 						<div class="col-lg-4 col-sm-4 col-md-4 col-xs-12">
-							<div class="wrap-footer-item">
+							<div class="wrap-footer-item" >
 								<h3 class="item-header">Social network</h3>
 								<div class="item-content">
 									<div class="wrap-list-item social-network">
